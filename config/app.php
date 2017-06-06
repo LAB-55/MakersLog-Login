@@ -172,11 +172,11 @@ return [
         /*
          * Application Service Providers...
          */
-        MakersLog-Login\Providers\AppServiceProvider::class,
-        MakersLog-Login\Providers\AuthServiceProvider::class,
-        // MakersLog-Login\Providers\BroadcastServiceProvider::class,
-        MakersLog-Login\Providers\EventServiceProvider::class,
-        MakersLog-Login\Providers\RouteServiceProvider::class,
+        App\Providers\AppServiceProvider::class,
+        App\Providers\AuthServiceProvider::class,
+        // App\Providers\BroadcastServiceProvider::class,
+        App\Providers\EventServiceProvider::class,
+        App\Providers\RouteServiceProvider::class,
 
     ],
 
